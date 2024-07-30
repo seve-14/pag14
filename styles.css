@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+}
+
+.main-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+}
+
+.sidebar h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.service-buttons {
+    margin-top: 20px;
+}
+
+.service-buttons button,
+.streaming-buttons button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #ff7e5f;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.service-buttons button:hover,
+.streaming-buttons button:hover {
+    background: #feb47b;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff7e5f;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #feb47b;
+}
+
+.login-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.login-link a {
+    color: #fff;
+    background: #ff7e5f;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.login-link a:hover {
+    background: #feb47b;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.service-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: center;
+}
+
+.service-box h2 {
+    margin-bottom: 20px;
+}
+
+.service-box button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #ff7e5f;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.service-box button:hover {
+    background: #feb47b;
+}
